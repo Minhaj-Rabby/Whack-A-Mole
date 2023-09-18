@@ -1,0 +1,66 @@
+/* Add your CSS styles here */
+.game-container {
+    display: flex;
+    justify-content: center;
+}
+.hole {
+    width: 100px;
+    height: 100px;
+    background: url('hole.png') center/cover;
+    cursor: pointer;
+}
+.mole {
+    background: url('mole.png') center/cover;
+}
+#game-over {
+    display: none;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+#reset{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.flex{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin-left:120px ;
+    margin-right:120px ;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.r-flex{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#time{
+    display: flex;
+    flex-direction: column;
+}
+.timer{
+    margin-bottom: 0px;
+}
+
+
+#timer{
+    margin-top: 0;
+    font-size: 50px;
+}
+#score{
+    margin-top: 0;
+    font-size: 50px;
+}
